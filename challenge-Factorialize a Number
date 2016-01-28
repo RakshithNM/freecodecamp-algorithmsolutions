@@ -1,0 +1,19 @@
+function factorialize(num) 
+{
+  var factorial= 1;
+  if( num===0 || num===1)
+    {
+      factorial = 1;
+    }
+  else
+    {
+      for(i=1;i<=num;i++)
+        {
+          factorial = factorial * i ;
+        }
+    
+    }
+  return factorial;
+}
+
+factorialize(3);
