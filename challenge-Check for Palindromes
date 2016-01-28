@@ -1,0 +1,16 @@
+ function palindrome(str) 
+  {
+    var newString = str.replace(/[^a-zA-Z0-9]/g,'');
+    var lowerKase = newString.toLowerCase();  
+    var check = lowerKase.split('').reverse().join('');
+    if(lowerKase==check)
+      {
+        return true;
+      }
+        else
+      {
+        return false;
+      }
+  }
+
+palindrome("race car");
