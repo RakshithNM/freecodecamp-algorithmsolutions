@@ -1,0 +1,15 @@
+function repeat(str, num) 
+{
+  if(num>0)
+    {
+      return str.repeat(num);
+    }
+   else
+     {
+      str="";
+      return str;
+     }
+  return str;
+}
+
+repeat("abc", 1);
