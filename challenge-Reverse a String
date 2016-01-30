@@ -1,11 +1,6 @@
 function reverseString(str) {
-  var myStr = [] ;
-  var revStr = [] ;
-  var strJoin = [];
-  myStr = str.split("");
-  revStr = myStr.reverse();
-  strJoin = revStr.join("");
-  return strJoin;
+  str = str.split("").reverse().join("");
+  return str;
 }
 
 reverseString("hello");
